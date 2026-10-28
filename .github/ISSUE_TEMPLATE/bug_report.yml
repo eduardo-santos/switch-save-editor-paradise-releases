@@ -1,0 +1,49 @@
+name: 🐞 Bug report
+description: Something doesn't work as it should, or the app crashed.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Save Editor Paradise better! A photo of **Settings → Diagnostic report** helps a lot: it lists what the app sees and the latest crash details, and contains no save contents.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be reproduced?
+      placeholder: |
+        1. Open the game …
+        2. Go to the … tab
+        3. Press …
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: e.g. Zelda: Breath of the Wild (version 1.6.0)
+  - type: input
+    id: version
+    attributes:
+      label: Save Editor Paradise version
+      description: Shown in Settings → About.
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Console firmware and Atmosphère version
+      placeholder: e.g. 19.0.1 / Atmosphère 1.8.0
+  - type: textarea
+    id: report
+    attributes:
+      label: Diagnostic report or screenshots
+      description: Drag photos or screenshots here.

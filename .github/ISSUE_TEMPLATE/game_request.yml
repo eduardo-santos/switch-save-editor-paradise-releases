@@ -1,0 +1,33 @@
+name: 🎮 Request a game
+description: Ask for a built-in editor for a game.
+title: "[Game] "
+labels: ["game request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, check the [supported games](https://github.com/eduardo-santos/switch-save-editor-paradise-releases#supported-games). Every game already gets backups and **Find a value**.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: e.g. The Legend of Zelda: Skyward Sword HD
+    validations:
+      required: true
+  - type: input
+    id: titleid
+    attributes:
+      label: Title ID (optional)
+      description: Shown on the game's screen in the app, e.g. 01002DA013484000.
+  - type: textarea
+    id: values
+    attributes:
+      label: What would you like to edit?
+      placeholder: Money, items, unlocks…
+    validations:
+      required: true
+  - type: textarea
+    id: known
+    attributes:
+      label: Anything already known?
+      description: Values you found with Find a value, links to save research or existing editors for this game.
