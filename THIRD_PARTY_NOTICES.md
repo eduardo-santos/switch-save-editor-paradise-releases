@@ -15,6 +15,22 @@ https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts (by Ac_K and contribut
 so only the format facts were used; no code was copied. The BYML reader and writer (`src/core/Byml.cpp`) were written
 from the format description.
 
+The Donkey Kong Country: Tropical Freeze item offsets (`save.bin`) come from the same repository's config by
+kindofblues, used the same way.
+
+## Kinnay/DKCTF-Save-Exploit
+
+The Donkey Kong Country: Tropical Freeze save header, checksum (CRC-32 of everything after offset 4, inverted) and
+inventory layout were checked against https://github.com/Kinnay/DKCTF-Save-Exploit (MIT, Copyright (c) Yannik
+Marchand). No code was copied; `src/editors/dkc` is an independent implementation.
+
+## Super Mario Bros. Wonder save research
+
+The `game_data.sav` layout (the same hashed table as Tears of the Kingdom) and the key hashes for coins and purple
+flower coins come from the community's research in https://github.com/mdietz94/smbw_ap and
+https://github.com/MemetendoYT/SMBW-SaveGame-Editor. Neither repository has a licence, so only the format facts were
+used; no code was copied. The lives entry was located in the app author's own save.
+
 ## marcrobledo/savegame-editors
 
 The Breath of the Wild save layout (`src/editors/botw/BotwSave.cpp`), the item table generated into

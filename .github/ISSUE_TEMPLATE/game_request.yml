@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before asking, check the [supported games](https://github.com/eduardo-santos/switch-save-editor-paradise-releases#supported-games). Every game already gets backups and **Find a value**.
+        Before asking, check the [supported games](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/blob/main/GAMES.md). Every game already gets backups and **Find a value**.
   - type: input
     id: game
     attributes:

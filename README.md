@@ -57,20 +57,9 @@
 
 ## Supported games
 
-| Game | What you can edit |
-| --- | --- |
-| **The Legend of Zelda: Breath of the Wild** | Rupees, hearts, stamina, Mons, Korok seeds, materials, food, arrows, key items; weapons, bows and shields with **unbreakable** (∞) per item or for all, copy and delete, free-slot counts and bonuses shown |
-| **The Legend of Zelda: Tears of the Kingdom** | Rupees, hearts, stamina, battery, materials, food, Zonai devices, key items; weapons, bows and shields with **unbreakable** (∞), copy and delete, bonuses and food effects shown |
-| **Pokémon Scarlet / Violet** | Money and the items in your bag |
-| **Pokémon Sword / Shield** | Money and the items in your bag |
-| **Pokémon Legends: Arceus** | Money and the items in your satchel, storage, key items and recipes |
-| **Pokémon: Let's Go, Pikachu! / Eevee!** | Money and the items in your bag, with names |
-| **Super Mario Odyssey** | Coins; unlock outfits, caps, stickers and souvenirs |
-| **Mario Kart 8 Deluxe** | Coins, drifts, jump boosts and mini-turbo stats (online ratings are left alone) |
-| **Super Smash Bros. Ultimate** | Gold, Spirit Points, tickets, hammers, snacks and spirit-battle items |
-| **Hyrule Warriors: Age of Calamity** | Rupees, 160+ materials and the level of every character |
-| **Super Kirby Clash** | Gem apples, shards, and the two hidden heroic missions |
-| **Any other game** | Backup and restore, plus [Find a value](#games-without-a-built-in-editor) |
+Built-in editors for **Zelda** (Breath of the Wild, Tears of the Kingdom, Age of Calamity), **Pokémon** (Scarlet/Violet, Sword/Shield, Legends: Arceus, Let's Go), **Mario** (Odyssey, Wonder, Mario Kart 8 Deluxe), **Donkey Kong Country: Tropical Freeze**, **Smash Bros. Ultimate** and **Super Kirby Clash**. Every other game gets backups and [Find a value](#games-without-a-built-in-editor).
+
+📋 **[See every supported game and what you can edit →](GAMES.md)**
 
 Want another game? See [game requests](#bugs-ideas-and-game-requests).
 
@@ -223,7 +212,9 @@ Save Editor Paradise stands on the work of others:
 - [Borealis](https://github.com/xfangfang/borealis) for the Switch-style interface
 - [marcrobledo/savegame-editors](https://github.com/marcrobledo/savegame-editors) for the Zelda, Smash, Age of Calamity and Kirby save layouts
 - [PKHeX](https://github.com/kwsch/PKHeX) (format documentation) and [PokeAPI](https://pokeapi.co) (item names) for Pokémon
-- The [EdiZon](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts) save research for Mario Kart 8 Deluxe and Super Mario Odyssey
+- The [EdiZon](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts) save research for Mario Kart 8 Deluxe, Super Mario Odyssey and Donkey Kong Country: Tropical Freeze
+- [Kinnay/DKCTF-Save-Exploit](https://github.com/Kinnay/DKCTF-Save-Exploit) for the Tropical Freeze save layout
+- The Super Mario Bros. Wonder save research in [smbw_ap](https://github.com/mdietz94/smbw_ap) and [SMBW-SaveGame-Editor](https://github.com/MemetendoYT/SMBW-SaveGame-Editor)
 - [Zstandard](https://github.com/facebook/zstd), [ARM astc-encoder](https://github.com/ARM-software/astc-encoder) and [bcdec](https://github.com/iOrange/bcdec) for reading game icons
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for licences.

@@ -59,20 +59,9 @@
 
 ## Jogos com editor
 
-| Jogo | O que dá para editar |
-| --- | --- |
-| **The Legend of Zelda: Breath of the Wild** | Rupias, corações, vigor, Mons, sementes Korok, materiais, comida, flechas, itens-chave; armas, arcos e escudos **indestrutíveis** (∞) um a um ou todos, copiar e excluir, espaços livres e bônus |
-| **The Legend of Zelda: Tears of the Kingdom** | Rupias, corações, vigor, bateria zonai, materiais, comida, dispositivos zonai, itens-chave; armas, arcos e escudos **indestrutíveis** (∞), copiar e excluir, bônus e efeitos das comidas |
-| **Pokémon Scarlet / Violet** | Dinheiro e os itens da mochila |
-| **Pokémon Sword / Shield** | Dinheiro e os itens da mochila |
-| **Pokémon Legends: Arceus** | Dinheiro e os itens da bolsa, do depósito, itens-chave e receitas |
-| **Pokémon: Let's Go, Pikachu! / Eevee!** | Dinheiro e os itens da mochila, com os nomes |
-| **Super Mario Odyssey** | Moedas; liberar roupas, chapéus, adesivos e lembranças |
-| **Mario Kart 8 Deluxe** | Moedas, derrapagens, impulsos de salto e mini-turbos (a pontuação online não é tocada) |
-| **Super Smash Bros. Ultimate** | Ouro, pontos de espírito, tíquetes, martelos, petiscos e itens das batalhas de espíritos |
-| **Hyrule Warriors: Age of Calamity** | Rupias, mais de 160 materiais e o nível de cada personagem |
-| **Super Kirby Clash** | Maçãs-gema, fragmentos e as duas missões heroicas escondidas |
-| **Qualquer outro jogo** | Backup e restauração, mais [Encontrar um valor](#jogos-sem-editor-próprio) |
+Editores próprios para **Zelda** (Breath of the Wild, Tears of the Kingdom, Age of Calamity), **Pokémon** (Scarlet/Violet, Sword/Shield, Legends: Arceus, Let's Go), **Mario** (Odyssey, Wonder, Mario Kart 8 Deluxe), **Donkey Kong Country: Tropical Freeze**, **Smash Bros. Ultimate** e **Super Kirby Clash**. Todos os outros jogos têm backups e o [Encontrar um valor](#jogos-sem-editor-próprio).
+
+📋 **[Veja todos os jogos com editor e o que dá para editar →](GAMES.pt-BR.md)**
 
 Quer outro jogo? Veja [pedidos de jogos](#bugs-ideias-e-pedidos-de-jogos).
 
@@ -227,7 +216,9 @@ O Save Editor Paradise se apoia no trabalho de outras pessoas:
 - [Borealis](https://github.com/xfangfang/borealis), pela interface no estilo do Switch
 - [marcrobledo/savegame-editors](https://github.com/marcrobledo/savegame-editors), pela estrutura dos saves de Zelda, Smash, Age of Calamity e Kirby
 - [PKHeX](https://github.com/kwsch/PKHeX) (documentação do formato) e [PokeAPI](https://pokeapi.co) (nomes dos itens), para Pokémon
-- A pesquisa de saves do [EdiZon](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts), para Mario Kart 8 Deluxe e Super Mario Odyssey
+- A pesquisa de saves do [EdiZon](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts), para Mario Kart 8 Deluxe, Super Mario Odyssey e Donkey Kong Country: Tropical Freeze
+- [Kinnay/DKCTF-Save-Exploit](https://github.com/Kinnay/DKCTF-Save-Exploit), pela estrutura do save de Tropical Freeze
+- A pesquisa de saves de Super Mario Bros. Wonder em [smbw_ap](https://github.com/mdietz94/smbw_ap) e [SMBW-SaveGame-Editor](https://github.com/MemetendoYT/SMBW-SaveGame-Editor)
 - [Zstandard](https://github.com/facebook/zstd), [ARM astc-encoder](https://github.com/ARM-software/astc-encoder) e [bcdec](https://github.com/iOrange/bcdec), para ler os ícones dos jogos
 
 Veja as licenças em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
