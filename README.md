@@ -1,3 +1,5 @@
+<p align="center"><b>English</b> · <a href="README.pt-BR.md">Português (Brasil)</a></p>
+
 <p align="center">
   <img src="screenshots/icon.png" width="160" alt="Save Editor Paradise icon">
 </p>
@@ -13,11 +15,13 @@
   <a href="https://github.com/eduardo-santos/switch-save-editor-paradise-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/eduardo-santos/switch-save-editor-paradise-releases?label=latest&color=ff4f8b"></a>
   <a href="https://github.com/eduardo-santos/switch-save-editor-paradise-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/eduardo-santos/switch-save-editor-paradise-releases/total?color=1fb7d1"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Switch%20(Atmosph%C3%A8re)-5b2ec7">
-  <img alt="Languages" src="https://img.shields.io/badge/languages-English%20%7C%20Portugu%C3%AAs-ff9e5e">
+  <img alt="Languages" src="https://img.shields.io/badge/languages-English%20%7C%20Portugu%C3%AAs%20(Brasil)-ff9e5e">
+  <a href="https://buymeacoffee.com/edu90k"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?logo=buymeacoffee&logoColor=000"></a>
 </p>
 
 <p align="center">
-  <img src="screenshots/editor-weapons.png" width="720" alt="Editing weapons in Breath of the Wild">
+  <img src="screenshots/en/botw-weapons.jpg" width="720" alt="Editing weapons in Breath of the Wild">
+  <br><sub>Real screenshots, taken on a Switch.</sub>
 </p>
 
 ---
@@ -26,6 +30,7 @@
 
 - [What it can do](#what-it-can-do)
 - [Supported games](#supported-games)
+- [Screenshots](#screenshots)
 - [Install](#install)
 - [Updating](#updating)
 - [How to use it](#how-to-use-it)
@@ -35,6 +40,7 @@
 - [Safety](#safety)
 - [FAQ](#faq)
 - [Bugs, ideas and game requests](#bugs-ideas-and-game-requests)
+- [Support the project](#support-the-project)
 - [Credits](#credits)
 
 ## What it can do
@@ -47,7 +53,7 @@
 - **Automatic backups** before every save you edit, plus manual backups with a label. Any backup can be restored, and restoring can be undone.
 - **Find a value** for games without an editor: search for a number you can see in the game and turn it into an editable field.
 - **In-app updates** from this page, with the release notes shown on the console.
-- **English and Português (Brasil)**, following your console's language or set manually.
+- **Fully translated into English and Português (Brasil).** The app follows your console's language, or you can pick one in Settings.
 
 ## Supported games
 
@@ -68,6 +74,17 @@
 
 Want another game? See [game requests](#bugs-ideas-and-game-requests).
 
+## Screenshots
+
+| | |
+| --- | --- |
+| <img src="screenshots/en/games.jpg" alt="Your games"> | <img src="screenshots/en/botw-game.jpg" alt="Breath of the Wild save slots"> |
+| Your games, with their real icons | Save slots with the game's own screenshots |
+| <img src="screenshots/en/botw-materials.jpg" alt="Breath of the Wild materials"> | <img src="screenshots/en/botw-food.jpg" alt="Breath of the Wild food"> |
+| Materials, with real item icons and pages | Food, with counts you can type |
+| <img src="screenshots/en/lgpe-game.jpg" alt="Pokémon: Let's Go, Pikachu! save"> | <img src="screenshots/en/lgpe-candy.jpg" alt="Pokémon: Let's Go, Pikachu! candy"> |
+| Pokémon: Let's Go, Pikachu! save | Bag items with their names |
+
 ## Install
 
 **You need** a Nintendo Switch running [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) custom firmware with the Homebrew Menu.
@@ -80,25 +97,25 @@ Want another game? See [game requests](#bugs-ideas-and-game-requests).
 
 ## Updating
 
+<p align="center"><img src="screenshots/en/update.jpg" width="640" alt="The update screen with the release notes"></p>
+
 Open **Settings → Check for updates now** in the app. It shows what's new, downloads the update, checks it and restarts into the new version. The previous version is kept as `/switch/save-editor-paradise/previous.nro`, just in case.
 
 With **Check for updates when the app opens** turned on (the default), the app tells you when a new version is out. You can also just replace the `.nro` on your SD card by hand.
 
 Some updates are **mandatory** (their release name says so), for example when an older version could damage saves. When one is out, the app asks you to install it before you can keep using it. Your saves, backups and settings are kept.
 
-<p align="center"><img src="screenshots/update.png" width="640" alt="The update screen with the release notes"></p>
-
 ## How to use it
 
 ### 1. Pick a game
 
-<p align="center"><img src="screenshots/games.png" width="640" alt="Your games"></p>
+<p align="center"><img src="screenshots/en/games.jpg" width="640" alt="Your games"></p>
 
 Games with a built-in editor have an **Editor** badge. Sort with **X**, flip the order with **Y**, search with **ZR**. **−** opens Settings.
 
 ### 2. Pick a profile and a slot
 
-<p align="center"><img src="screenshots/game.png" width="640" alt="Profiles and save slots"></p>
+<p align="center"><img src="screenshots/en/botw-game.jpg" width="640" alt="Profiles and save slots"></p>
 
 Each slot shows when it was saved, the play time and a short summary. The **Backups** and **Find a value** buttons apply to the whole game.
 
@@ -107,8 +124,8 @@ Each slot shows when it was saved, the play time and a short summary. The **Back
 ### 3. Edit
 
 <p align="center">
-  <img src="screenshots/editor-materials.png" width="420" alt="Materials, page 1 of 3">
-  <img src="screenshots/odyssey-outfits.png" width="420" alt="Super Mario Odyssey outfits">
+  <img src="screenshots/en/botw-materials.jpg" width="420" alt="Materials, page 1 of 3">
+  <img src="screenshots/en/lgpe-medicine.jpg" width="420" alt="Pokémon: Let's Go medicine">
 </p>
 
 | Button | Does |
@@ -129,7 +146,7 @@ When you save, the app backs up the slot first, writes your changes and tells yo
 
 ### Find a value
 
-<p align="center"><img src="screenshots/find-a-value.png" width="640" alt="Find a value"></p>
+<p align="center"><img src="screenshots/en/find-a-value.jpg" width="640" alt="Find a value"></p>
 
 1. On the game's screen, choose **Find a value** (or press **ZR**).
 2. Enter a number you can see in the game right now, such as your money.
@@ -145,7 +162,7 @@ Every game can be backed up and restored, editor or not. See below.
 
 ## Backups and restoring
 
-<p align="center"><img src="screenshots/backups.png" width="640" alt="Backups"></p>
+<p align="center"><img src="screenshots/en/backups.jpg" width="640" alt="Backups"></p>
 
 - **Automatic:** before every edit the app keeps at most two backups per slot: the **Original** (the slot the first time you edited it, kept forever) and **Before last edit** (replaced each time).
 - **Manual:** make as many as you like, with a label, from the **Backups** screen (**−** on the game screen).
@@ -181,13 +198,21 @@ The icons are saved on the SD card, so this is needed only once per game. The ap
 
 **Where is my data?** In `/switch/save-editor-paradise/` on the SD card: settings, backups, icons and Find a value fields. Data from older versions (`/switch/switch-save-editor/`) is moved there automatically.
 
-**How do I change the language?** **Settings → Language**: System, English or Português (Brasil).
+**How do I change the language?** **Settings → Language**: System, English or Português (Brasil). Restart the app to apply it.
+
+<p align="center"><img src="screenshots/en/language.jpg" width="560" alt="Choosing the language in Settings"></p>
 
 ## Bugs, ideas and game requests
 
 - 🐞 **Found a bug?** [Report it](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/issues/new?template=bug_report.yml), ideally with a photo of the diagnostic report.
 - 💡 **Have an idea or an improvement?** [Suggest it](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/issues/new?template=idea.yml), or start a conversation in [Discussions](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/discussions).
 - 🎮 **Want another game supported?** [Request it](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/issues/new?template=game_request.yml).
+
+## Support the project
+
+Save Editor Paradise is free. If it saved you hours of grinding, you can buy me a coffee:
+
+<a href="https://buymeacoffee.com/edu90k"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="48"></a>
 
 ## Credits
 
