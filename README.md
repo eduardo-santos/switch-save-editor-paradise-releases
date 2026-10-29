@@ -84,6 +84,8 @@ Open **Settings → Check for updates now** in the app. It shows what's new, dow
 
 With **Check for updates when the app opens** turned on (the default), the app tells you when a new version is out. You can also just replace the `.nro` on your SD card by hand.
 
+Some updates are **mandatory** (their release name says so), for example when an older version could damage saves. When one is out, the app asks you to install it before you can keep using it. Your saves, backups and settings are kept.
+
 <p align="center"><img src="screenshots/update.png" width="640" alt="The update screen with the release notes"></p>
 
 ## How to use it
