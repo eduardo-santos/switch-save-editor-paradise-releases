@@ -129,6 +129,8 @@ Open **Settings → Check for updates now** in the app. It shows what's new, dow
 
 With **Check for updates when the app opens** turned on (the default), the app tells you when a new version is out. You can also just replace the `.nro` on your SD card by hand.
 
+> **Updating from 1.3.0 or older:** those versions can't replace their own `.nro`, and the in-app update stops with *"Couldn't move sdmc:/switch/save-editor-paradise.nro: I/O error"*. Install **1.3.1** by hand once: download `save-editor-paradise.nro` from the [latest release](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/releases/latest) and copy it over `/switch/save-editor-paradise.nro` on your SD card (by FTP, USB with DBI, or the SD card in a computer). In-app updates work from 1.3.1 on. Your saves, backups and settings are kept.
+
 Some updates are **mandatory** (their release name says so), for example when an older version could damage saves. When one is out, the app asks you to install it before you can keep using it. Your saves, backups and settings are kept.
 
 ## How to use it

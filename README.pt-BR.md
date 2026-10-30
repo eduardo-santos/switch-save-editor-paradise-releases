@@ -131,6 +131,8 @@ No app, abra **Configurações → Procurar atualizações agora**. Ele mostra a
 
 Com **Procurar atualizações ao abrir o app** ligado (o padrão), o app avisa quando sai uma versão nova. Você também pode simplesmente trocar o `.nro` no cartão SD.
 
+> **Atualizando da 1.3.0 ou anterior:** essas versões não conseguem substituir o próprio `.nro`, e a atualização pelo app para com *"Couldn't move sdmc:/switch/save-editor-paradise.nro: I/O error"*. Instale a **1.3.1** manualmente uma vez: baixe o `save-editor-paradise.nro` da [versão mais recente](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/releases/latest) e copie por cima de `/switch/save-editor-paradise.nro` no cartão SD (por FTP, USB com o DBI, ou com o cartão SD no computador). A partir da 1.3.1 a atualização pelo app funciona. Seus saves, backups e configurações são mantidos.
+
 Algumas atualizações são **obrigatórias** (o nome da versão diz "mandatory"), por exemplo quando uma versão antiga poderia estragar saves. Quando sai uma, o app pede para instalar antes de continuar. Seus saves, backups e configurações são mantidos.
 
 ## Como usar
