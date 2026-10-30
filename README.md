@@ -192,7 +192,8 @@ Every game can be backed up and restored, editor or not. See below.
 
 <p align="center"><img src="screenshots/en/backups.jpg" width="640" alt="Backups"></p>
 
-- **Automatic:** before every edit the app keeps at most two backups per slot: the **Original** (the slot the first time you edited it, kept forever) and **Before last edit** (replaced each time).
+- **Automatic:** before it changes a slot (edit, restore, copy or swap), the app keeps at most two backups of it: the **Original** (the slot before the app first changed it, kept forever) and the **Previous version** (the slot just before your latest change, replaced each time, so you can undo).
+- **Grouped and sorted:** the sidebar splits backups into those made by this app (Original, Previous version, When the app opened, Manual) and those made by JKSV. Each row says whether it holds one slot or all slots. **L** groups the list by type or slot, **R** switches newest or oldest first, and **−** explains each type.
 - **Manual:** make as many as you like, with a label, from the **Backups** screen (**−** on the game screen).
 - **All games at once:** **Settings → Back up all games now**. Turn on **Back up when the app opens** to keep one extra backup of every game, refreshed in the background (only saves that changed are copied again).
 - **JKSV:** backups made with JKSV show up in each game's list and can be restored too.

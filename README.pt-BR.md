@@ -194,7 +194,8 @@ Todo jogo pode ter backup e restauração, com ou sem editor. Veja abaixo.
 
 <p align="center"><img src="screenshots/pt-BR/backups.jpg" width="640" alt="Backups"></p>
 
-- **Automáticos:** antes de cada edição, o app guarda no máximo dois backups por slot: o **Original** (o slot da primeira vez que você editou, guardado para sempre) e o **Antes da última edição** (substituído a cada vez).
+- **Automáticos:** antes de alterar um slot (edição, restauração, cópia ou troca), o app guarda no máximo dois backups dele: o **Original** (o slot antes da primeira alteração pelo app, guardado para sempre) e a **Versão anterior** (o slot logo antes da sua última mudança, substituída a cada vez, para você poder desfazer).
+- **Agrupados e ordenados:** a barra lateral separa os backups feitos por este app (Original, Versão anterior, Ao abrir o app, Manual) dos feitos pelo JKSV. Cada linha diz se guarda um slot ou todos os slots. **L** agrupa a lista por tipo ou slot, **R** alterna entre mais recentes ou mais antigos primeiro, e **−** explica cada tipo.
 - **Manuais:** faça quantos quiser, com nome, na tela **Backups** (**−** na tela do jogo).
 - **Todos os jogos de uma vez:** **Configurações → Fazer backup de todos os jogos agora**. Ligue **Backup ao abrir o app** para manter um backup extra de cada jogo, atualizado em segundo plano (só os saves que mudaram são copiados de novo).
 - **JKSV:** backups feitos com o JKSV aparecem na lista de cada jogo e também podem ser restaurados.
