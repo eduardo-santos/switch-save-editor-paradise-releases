@@ -31,6 +31,18 @@ flower coins come from the community's research in https://github.com/mdietz94/s
 https://github.com/MemetendoYT/SMBW-SaveGame-Editor. Neither repository has a licence, so only the format facts were
 used; no code was copied. The lives entry was located in the app author's own save.
 
+## QR Code generator library (C)
+
+`third_party/qrcodegen` draws the QR code on the "Edit from your phone or PC" screen. Copyright (c) Project Nayuki,
+MIT licence (https://www.nayuki.io/page/qr-code-generator-library). The licence text is in the source files.
+
+## Zelda shrine data
+
+The shrine names, trials, regions and quests of the BotW and TotK shrine trackers, and the save flags they use, come
+from the shrine tracker contributed to marcrobledo/savegame-editors in pull request #531 by everyonelovespepsicola
+(https://github.com/marcrobledo/savegame-editors/pull/531), under that repository's MIT licence. The data was
+converted to `src/editors/zelda/ShrineData.cpp`; the tracker itself is an independent implementation.
+
 ## marcrobledo/savegame-editors
 
 The Breath of the Wild save layout (`src/editors/botw/BotwSave.cpp`), the item table generated into

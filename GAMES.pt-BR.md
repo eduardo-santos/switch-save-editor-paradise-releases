@@ -10,8 +10,8 @@ Todo jogo com save funciona com o Save Editor Paradise: você sempre pode **faze
 
 | Jogo | Title ID | O que dá para editar |
 | --- | --- | --- |
-| **The Legend of Zelda: Breath of the Wild** | `01007EF00011E000` | Rupias, corações, vigor, Mons, sementes Korok, materiais, comida, flechas, itens-chave; armas, arcos e escudos **indestrutíveis** (∞) um a um ou todos, copiar e excluir, espaços livres e bônus |
-| **The Legend of Zelda: Tears of the Kingdom** | `0100F2C0115B6000` | Rupias, corações, vigor, bateria zonai, materiais, comida, dispositivos zonai, itens-chave; armas, arcos e escudos **indestrutíveis** (∞), copiar e excluir, bônus e efeitos das comidas |
+| **The Legend of Zelda: Breath of the Wild** | `01007EF00011E000` | Rupias, corações, vigor, Mons, sementes Korok, materiais, comida, flechas, itens-chave; armas, arcos e escudos **indestrutíveis** (∞) um a um ou todos, copiar e excluir, espaços livres e bônus; **[rastreador de santuários](README.pt-BR.md#rastreador-de-santuários-zelda)** com os 136 santuários |
+| **The Legend of Zelda: Tears of the Kingdom** | `0100F2C0115B6000` | Rupias, corações, vigor, bateria zonai, materiais, comida, dispositivos zonai, itens-chave; armas, arcos e escudos **indestrutíveis** (∞), copiar e excluir, bônus e efeitos das comidas; **[rastreador de santuários](README.pt-BR.md#rastreador-de-santuários-zelda)** com os 152 santuários |
 | **Hyrule Warriors: Age of Calamity** | `01002B00111A2000` | Rupias, mais de 160 materiais e o nível de cada personagem |
 
 Breath of the Wild e Tears of the Kingdom também podem mostrar os [ícones reais dos itens](README.pt-BR.md#ícones-reais-dos-jogos-zelda).

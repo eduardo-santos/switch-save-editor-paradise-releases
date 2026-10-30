@@ -10,8 +10,8 @@ Every game with a save works with Save Editor Paradise: you can always **back it
 
 | Game | Title ID | What you can edit |
 | --- | --- | --- |
-| **The Legend of Zelda: Breath of the Wild** | `01007EF00011E000` | Rupees, hearts, stamina, Mons, Korok seeds, materials, food, arrows, key items; weapons, bows and shields with **unbreakable** (∞) per item or for all, copy and delete, free-slot counts and bonuses shown |
-| **The Legend of Zelda: Tears of the Kingdom** | `0100F2C0115B6000` | Rupees, hearts, stamina, battery, materials, food, Zonai devices, key items; weapons, bows and shields with **unbreakable** (∞), copy and delete, bonuses and food effects shown |
+| **The Legend of Zelda: Breath of the Wild** | `01007EF00011E000` | Rupees, hearts, stamina, Mons, Korok seeds, materials, food, arrows, key items; weapons, bows and shields with **unbreakable** (∞) per item or for all, copy and delete, free-slot counts and bonuses shown; **[Shrine Tracker](README.md#shrine-tracker-zelda)** for all 136 shrines |
+| **The Legend of Zelda: Tears of the Kingdom** | `0100F2C0115B6000` | Rupees, hearts, stamina, battery, materials, food, Zonai devices, key items; weapons, bows and shields with **unbreakable** (∞), copy and delete, bonuses and food effects shown; **[Shrine Tracker](README.md#shrine-tracker-zelda)** for all 152 shrines |
 | **Hyrule Warriors: Age of Calamity** | `01002B00111A2000` | Rupees, 160+ materials and the level of every character |
 
 Breath of the Wild and Tears of the Kingdom can also show the game's [real item icons](README.md#real-game-icons-zelda).

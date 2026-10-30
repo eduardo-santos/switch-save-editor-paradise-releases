@@ -32,6 +32,8 @@
 
 - [O que ele faz](#o-que-ele-faz)
 - [Jogos com editor](#jogos-com-editor)
+- [Rastreador de santuários (Zelda)](#rastreador-de-santuários-zelda)
+- [Editar pelo celular ou PC](#editar-pelo-celular-ou-pc)
 - [Capturas de tela](#capturas-de-tela)
 - [Instalação](#instalação)
 - [Atualizações](#atualizações)
@@ -48,12 +50,16 @@
 ## O que ele faz
 
 - **Todos os jogos com save, num só lugar.** Seus jogos aparecem com os ícones, ordenados por jogado por último, salvo por último ou nome, e dá para buscar.
-- **Todos os perfis e todos os slots.** Cada slot mostra data e hora do save, tempo de jogo, um resumo (corações, rupias, dinheiro…) e a própria captura de tela do jogo, quando ele tem uma.
-- **Editores próprios** para jogos populares: dinheiro, itens, status, desbloqueios e, no Zelda, armas, arcos e escudos indestrutíveis.
+- **Todos os perfis e todos os slots.** Cada slot mostra data e hora do save, tempo de jogo, um resumo (corações, rupias, dinheiro…), a própria captura de tela do jogo, quando ele tem uma, e se é salvamento automático ou manual (Zelda).
+- **Editores próprios** para jogos populares: dinheiro, itens, status, desbloqueios e, no Zelda, armas, arcos e escudos indestrutíveis, além de um **[rastreador de santuários](#rastreador-de-santuários-zelda)** completo.
+- **[Editar pelo celular ou PC](#editar-pelo-celular-ou-pc)** num navegador na mesma rede Wi-Fi: baixe e envie saves, restaure backups, edite valores com um teclado de verdade.
+- **Revisar antes de salvar:** cada mudança aparece (antes → depois) antes de qualquer coisa ser gravada, e cada slot guarda um **histórico** das mudanças.
+- **Copiar e trocar** slots, ou copiar o save inteiro para outro perfil.
+- **Favoritos** no topo dos seus jogos, e um filtro para os jogos com editor.
 - **Digite qualquer valor** pelo teclado numérico, ou use − / + / Máximo e **Tudo no máximo**.
 - **Busca** dentro do save (numa categoria ou em todas), e listas longas são divididas em páginas.
-- **Backups automáticos** antes de cada save que você edita, além de backups manuais com nome. Qualquer backup pode ser restaurado, e a restauração também pode ser desfeita.
-- **Encontrar um valor** para jogos sem editor: procure um número que você vê no jogo e transforme ele num campo editável.
+- **Backups automáticos** antes de cada save que você edita, além de backups manuais com nome, **backup de todos os jogos** de uma vez e os seus **backups do JKSV**. Qualquer backup pode ser restaurado, e a restauração também pode ser desfeita.
+- **Encontrar um valor** para jogos sem editor: procure um número que você vê no jogo e transforme ele num campo editável, ou baixe os campos que outros jogadores compartilharam.
 - **Atualizações pelo próprio app**, a partir desta página, com as novidades mostradas no console.
 - **Totalmente traduzido para português (Brasil) e inglês.**
 
@@ -75,6 +81,37 @@ Quer outro jogo? Veja [pedidos de jogos](#bugs-ideias-e-pedidos-de-jogos).
 | Materiais, com os ícones reais e páginas | Comida, com quantidades que você digita |
 | <img src="screenshots/pt-BR/lgpe-game.jpg" alt="Save de Pokémon: Let's Go, Pikachu!"> | <img src="screenshots/pt-BR/lgpe-candy.jpg" alt="Doces em Pokémon: Let's Go, Pikachu!"> |
 | Save de Pokémon: Let's Go, Pikachu! | Itens da mochila com os nomes |
+
+## Rastreador de santuários (Zelda)
+
+<p align="center"><img src="screenshots/pt-BR/botw-shrines.jpg" width="720" alt="A aba Santuários em Breath of the Wild"></p>
+
+Breath of the Wild (136 santuários, 16 da DLC) e Tears of the Kingdom (152 santuários, 32 no céu) ganham uma aba **Santuários** no editor:
+
+- Todos os santuários com **prova, região e missão**, agrupados por região com a contagem de completos, e uma barra de progresso.
+- Cada linha tem dois botões: **Encontrado / Não encontrado** e **Completo / Incompleto**. Escolha com **◀ ▶** e aperte **A**. Completar um santuário também marca como encontrado. Os completos ficam verdes.
+- **Ordene** por região, nome, completos, encontrados, jogo base / DLC (céu no TotK) ou ordem do jogo, **filtre** por região e **mostre** só os completos, incompletos, encontrados, não encontrados, do jogo base ou da DLC. A busca procura nomes, provas e missões.
+- **Y → Completar…** completa todos do jogo base, todos da DLC (ou do céu), ou todos, marca todos como encontrados, ou volta todos para incompleto.
+- Como em toda edição, você vê as mudanças antes de salvar e o slot ganha um backup antes.
+
+No Tears of the Kingdom, um santuário que o save já encontrou não pode voltar a "não encontrado": o valor que o jogo usa para um santuário não descoberto não é conhecido. Os santuários da DLC só aparecem em saves do Breath of the Wild que têm os dados da DLC.
+
+## Editar pelo celular ou PC
+
+<p align="center">
+  <img src="screenshots/pt-BR/web-games.jpg" width="300" alt="Seus jogos no navegador do celular">
+  <img src="screenshots/pt-BR/web-game.jpg" width="300" alt="Os slots de um jogo no navegador do celular">
+</p>
+
+Abra **Configurações → Editar pelo celular ou PC**. O Switch mostra um QR code e um endereço:
+
+1. Conecte o celular ou o computador na **mesma rede Wi-Fi** do Switch.
+2. Escaneie o QR code ou digite o endereço no navegador.
+3. Deixe essa tela aberta no Switch enquanto usa. Ao sair, a página é desligada.
+
+No navegador você vê seus jogos (com os ícones reais) e a captura de cada slot, **edita valores** com um teclado de verdade, **baixa** qualquer backup em .zip, **faz backup** de um save, **envia** um save (um .zip desta página ou do JKSV, ou um arquivo só) e **restaura** backups. Tudo funciona como no console: as edições ganham backup antes e entram no histórico do slot, e nada é gravado enquanto o jogo está aberto.
+
+Só aparelhos com o código do QR abrem a página (ele muda toda vez), e só enquanto a tela está aberta no Switch.
 
 ## Instalação
 
@@ -102,13 +139,13 @@ Algumas atualizações são **obrigatórias** (o nome da versão diz "mandatory"
 
 <p align="center"><img src="screenshots/pt-BR/games.jpg" width="640" alt="Seus jogos"></p>
 
-Jogos com editor próprio têm o selo **Editor**. Ordene com **X**, inverta a ordem com **Y** e busque com **ZR**. O **−** abre as Configurações.
+Jogos com editor próprio têm o selo **Editor**. Ordene com **X**, inverta a ordem com **Y** e busque com **ZR**. **R** favorita um jogo (fixado no topo) e **L** mostra todos os jogos, só os com editor, ou os favoritos. O **−** abre as Configurações.
 
 ### 2. Escolha um perfil e um slot
 
 <p align="center"><img src="screenshots/pt-BR/botw-game.jpg" width="640" alt="Perfis e slots de save"></p>
 
-Cada slot mostra quando foi salvo, o tempo de jogo e um resumo. Os botões **Backups** e **Encontrar um valor** valem para o jogo inteiro.
+Cada slot mostra quando foi salvo, o tempo de jogo e um resumo. **R** num slot abre o **histórico** dele e permite **copiá-lo** por cima de outro slot ou **trocar** dois slots. Os botões **Backups**, **Encontrar um valor** e **Copiar para perfil** valem para o jogo inteiro. O que for substituído ganha um backup antes.
 
 > **Feche o jogo antes.** Um jogo aberto mantém o save bloqueado e apagaria suas mudanças. O app avisa quando um jogo ainda está aberto.
 
@@ -126,10 +163,10 @@ Cada slot mostra quando foi salvo, o tempo de jogo e um resumo. Os botões **Bac
 | **Y** | Tudo no máximo (ou tudo indestrutível, ou liberar tudo) |
 | **ZL / ZR** | Vai para o primeiro / último item; aperte de novo para a página anterior / próxima |
 | **−** | Buscar |
-| **X** | Salvar |
+| **X** | Revisar as mudanças e salvar |
 | **B** | Voltar (pergunta antes de descartar mudanças não salvas) |
 
-Ao salvar, o app faz backup do slot primeiro, grava suas mudanças e diz onde ficou o backup.
+Ao salvar, o app mostra cada mudança (antes → depois) primeiro. Quando você confirma, ele faz backup do slot, grava as mudanças e as adiciona ao histórico do slot.
 
 > **Breath of the Wild:** depois de editar, abra o slot com **Carregar** no menu do jogo. **Continuar** pode abrir outro slot.
 
@@ -145,6 +182,8 @@ Ao salvar, o app faz backup do slot primeiro, grava suas mudanças e diz onde fi
 4. Volte e digite o número novo. Repita até sobrarem poucos lugares.
 5. Escolha um, dê um nome (e um máximo), e ele vira um campo editável na tela desse jogo dali em diante.
 
+**Campos compartilhados:** escolha **Baixar campos compartilhados deste jogo** para baixar campos que outros jogadores encontraram. Achou um útil? [Compartilhe](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/issues/new?template=share_field.yml) (veja [como funcionam os campos compartilhados](fields/README.md)).
+
 Alguns jogos criptografam ou protegem seus saves com checksum. O Encontrar um valor não consegue mudar esses com segurança, e o backup automático permite desfazer se o jogo recusar um save editado.
 
 ### Backup e restauração
@@ -157,6 +196,8 @@ Todo jogo pode ter backup e restauração, com ou sem editor. Veja abaixo.
 
 - **Automáticos:** antes de cada edição, o app guarda no máximo dois backups por slot: o **Original** (o slot da primeira vez que você editou, guardado para sempre) e o **Antes da última edição** (substituído a cada vez).
 - **Manuais:** faça quantos quiser, com nome, na tela **Backups** (**−** na tela do jogo).
+- **Todos os jogos de uma vez:** **Configurações → Fazer backup de todos os jogos agora**. Ligue **Backup ao abrir o app** para manter um backup extra de cada jogo, atualizado em segundo plano (só os saves que mudaram são copiados de novo).
+- **JKSV:** backups feitos com o JKSV aparecem na lista de cada jogo e também podem ser restaurados.
 - **Restaure** qualquer um na mesma tela. A restauração faz backup do estado atual antes, então também dá para desfazer.
 
 Tudo fica em `/switch/save-editor-paradise/backups/` no cartão SD.

@@ -30,6 +30,8 @@
 
 - [What it can do](#what-it-can-do)
 - [Supported games](#supported-games)
+- [Shrine Tracker (Zelda)](#shrine-tracker-zelda)
+- [Edit from your phone or PC](#edit-from-your-phone-or-pc)
 - [Screenshots](#screenshots)
 - [Install](#install)
 - [Updating](#updating)
@@ -46,12 +48,16 @@
 ## What it can do
 
 - **Every game with a save, in one place.** Your games are listed with their icons, sorted by last played, last saved or name, and searchable.
-- **Every profile and every slot.** Slots show their save date and time, play time, a short summary (hearts, rupees, money…) and the game's own screenshot when it has one.
-- **Built-in editors** for popular games: money, items, stats, unlocks, and for Zelda, unbreakable weapons, bows and shields.
+- **Every profile and every slot.** Slots show their save date and time, play time, a short summary (hearts, rupees, money…), the game's own screenshot when it has one, and whether it's an autosave or a manual save (Zelda).
+- **Built-in editors** for popular games: money, items, stats, unlocks, and for Zelda, unbreakable weapons, bows and shields, plus a full **[Shrine Tracker](#shrine-tracker-zelda)**.
+- **[Edit from your phone or PC](#edit-from-your-phone-or-pc)** in a browser on the same Wi-Fi: download and upload saves, restore backups, edit values with a real keyboard.
+- **Review before saving:** every change is listed (old → new) before anything is written, and each slot keeps a **history** of its changes.
+- **Copy and swap** slots, or copy a whole save to another profile.
+- **Favourites** at the top of your games, and a filter for games with an editor.
 - **Type any value** with the number keyboard, or use − / + / Max and **Max all**.
 - **Search** inside a save (one category or all of them), and long lists are split into pages.
-- **Automatic backups** before every save you edit, plus manual backups with a label. Any backup can be restored, and restoring can be undone.
-- **Find a value** for games without an editor: search for a number you can see in the game and turn it into an editable field.
+- **Automatic backups** before every save you edit, plus manual backups with a label, **back up all games** at once, and your **JKSV backups**. Any backup can be restored, and restoring can be undone.
+- **Find a value** for games without an editor: search for a number you can see in the game and turn it into an editable field, or download the fields other players shared.
 - **In-app updates** from this page, with the release notes shown on the console.
 - **Fully translated into English and Português (Brasil).** The app follows your console's language, or you can pick one in Settings.
 
@@ -73,6 +79,37 @@ Want another game? See [game requests](#bugs-ideas-and-game-requests).
 | Materials, with real item icons and pages | Food, with counts you can type |
 | <img src="screenshots/en/lgpe-game.jpg" alt="Pokémon: Let's Go, Pikachu! save"> | <img src="screenshots/en/lgpe-candy.jpg" alt="Pokémon: Let's Go, Pikachu! candy"> |
 | Pokémon: Let's Go, Pikachu! save | Bag items with their names |
+
+## Shrine Tracker (Zelda)
+
+<p align="center"><img src="screenshots/en/botw-shrines.jpg" width="720" alt="The Shrines tab in Breath of the Wild"></p>
+
+Breath of the Wild (136 shrines, 16 from the DLC) and Tears of the Kingdom (152 shrines, 32 in the sky) get a **Shrines** tab in the editor:
+
+- Every shrine with its **trial, region and quest**, grouped by region with a completed count, and a progress bar.
+- Each row has two buttons: **Found / Not found** and **Completed / Incomplete**. Move between them with **◀ ▶** and press **A**. Completing a shrine also marks it found. Completed shrines turn green.
+- **Sort** by region, name, completed, found, base / DLC (sky in TotK) or game order, **filter** by region, and **show** only completed, incomplete, found, not found, base or DLC shrines. Search covers names, trials and quests.
+- **Y → Complete…** completes all base shrines, all DLC (or sky) shrines, or all of them, marks all as found, or resets all to incomplete.
+- As with every edit, you see the changes before saving and the slot is backed up first.
+
+In Tears of the Kingdom a shrine the save has already found can't be set back to "not found": the game's value for an undiscovered shrine isn't known. DLC shrines only appear in Breath of the Wild saves that have the DLC's data.
+
+## Edit from your phone or PC
+
+<p align="center">
+  <img src="screenshots/en/web-games.jpg" width="300" alt="Your games in a phone browser">
+  <img src="screenshots/en/web-game.jpg" width="300" alt="A game's save slots in a phone browser">
+</p>
+
+Open **Settings → Edit from your phone or PC**. The Switch shows a QR code and an address:
+
+1. Connect your phone or computer to the **same Wi-Fi** as the Switch.
+2. Scan the QR code or type the address in a browser.
+3. Keep that screen open on the Switch while you use it. Leaving it turns the page off.
+
+In the browser you can see your games (with their real icons) and each slot's screenshot, **edit values** with a real keyboard, **download** any backup as a .zip, **back up** a save, **upload** a save (a .zip from this page or from JKSV, or a single file), and **restore** backups. Everything works like on the console: edits are backed up first and show up in the slot's history, and nothing is written while the game is running.
+
+Only devices with the code from the QR can open the page (it changes every time), and only while the screen is open on the Switch.
 
 ## Install
 
@@ -100,13 +137,13 @@ Some updates are **mandatory** (their release name says so), for example when an
 
 <p align="center"><img src="screenshots/en/games.jpg" width="640" alt="Your games"></p>
 
-Games with a built-in editor have an **Editor** badge. Sort with **X**, flip the order with **Y**, search with **ZR**. **−** opens Settings.
+Games with a built-in editor have an **Editor** badge. Sort with **X**, flip the order with **Y**, search with **ZR**. **R** makes a game a favourite (pinned to the top) and **L** shows all games, only games with an editor, or favourites. **−** opens Settings.
 
 ### 2. Pick a profile and a slot
 
 <p align="center"><img src="screenshots/en/botw-game.jpg" width="640" alt="Profiles and save slots"></p>
 
-Each slot shows when it was saved, the play time and a short summary. The **Backups** and **Find a value** buttons apply to the whole game.
+Each slot shows when it was saved, the play time and a short summary. **R** on a slot opens its **history**, and lets you **copy** it over another slot or **swap** two slots. The **Backups**, **Find a value** and **Copy to profile** buttons apply to the whole game. Anything replaced is backed up first.
 
 > **Close the game first.** A running game keeps its save locked and would overwrite your changes. The app tells you when a game is still open.
 
@@ -124,10 +161,10 @@ Each slot shows when it was saved, the play time and a short summary. The **Back
 | **Y** | Max all (or make all unbreakable, or unlock all) |
 | **ZL / ZR** | Jump to the first / last item; press again for the previous / next page |
 | **−** | Search |
-| **X** | Save |
+| **X** | Review your changes and save |
 | **B** | Back (asks before throwing away unsaved changes) |
 
-When you save, the app backs up the slot first, writes your changes and tells you where the backup is.
+Saving shows every change (old → new) first. When you confirm, the app backs up the slot, writes your changes and adds them to the slot's history.
 
 > **Breath of the Wild:** after editing, load the slot with **Load** in the game's menu. **Continue** may pick a different slot.
 
@@ -143,6 +180,8 @@ When you save, the app backs up the slot first, writes your changes and tells yo
 4. Come back and enter the new number. Repeat until only a few places are left.
 5. Pick one, give it a name (and a maximum), and it becomes an editable field on that game's screen from then on.
 
+**Shared fields:** choose **Get shared fields for this game** to download fields other players found. Found a useful one? [Share it](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/issues/new?template=share_field.yml) (see [how shared fields work](fields/README.md)).
+
 Some games encrypt or checksum their saves. Find a value can't change those safely, and the automatic backup lets you undo if a game refuses an edited save.
 
 ### Backup and restore
@@ -155,6 +194,8 @@ Every game can be backed up and restored, editor or not. See below.
 
 - **Automatic:** before every edit the app keeps at most two backups per slot: the **Original** (the slot the first time you edited it, kept forever) and **Before last edit** (replaced each time).
 - **Manual:** make as many as you like, with a label, from the **Backups** screen (**−** on the game screen).
+- **All games at once:** **Settings → Back up all games now**. Turn on **Back up when the app opens** to keep one extra backup of every game, refreshed in the background (only saves that changed are copied again).
+- **JKSV:** backups made with JKSV show up in each game's list and can be restored too.
 - **Restore** any of them from the same screen. Restoring first backs up the current state, so a restore can be undone too.
 
 Everything lives in `/switch/save-editor-paradise/backups/` on your SD card.

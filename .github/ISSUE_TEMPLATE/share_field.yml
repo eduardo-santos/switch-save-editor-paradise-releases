@@ -1,0 +1,40 @@
+name: Share a field
+description: Share a value you found with "Find a value", so other players can edit it too.
+title: "[Field] "
+labels: ["shared field"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing! Shared fields appear for everyone under **Find a value → Get shared fields for this game**.
+        See the [format](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/blob/main/fields/README.md) for details.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: Its name, and the title ID if you know it (shown on the game's screen in the app).
+      placeholder: "Super Mario Bros. Wonder · 010015100B514000"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Offsets can move between updates. You can see it on the HOME screen (+ on the game → Information).
+      placeholder: "1.0.2"
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: Fields
+      description: One per line, as the app shows them in "Your fields" (name · file · position · type), plus the maximum.
+      placeholder: |
+        Lives · game_data.sav · 0x167C · 4 bytes · max 99
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: How you tested it, values that crash the game, etc.
