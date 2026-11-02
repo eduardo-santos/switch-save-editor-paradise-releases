@@ -46,6 +46,7 @@
 - [Perguntas frequentes](#perguntas-frequentes)
 - [Bugs, ideias e pedidos de jogos](#bugs-ideias-e-pedidos-de-jogos)
 - [Apoie o projeto](#apoie-o-projeto)
+- [Licença](#licença)
 - [Créditos](#créditos)
 
 ## O que ele faz
@@ -266,6 +267,13 @@ Pode escrever em português, sem problema.
 O Save Editor Paradise é gratuito. Se ele te poupou horas de farm, você pode me pagar um café:
 
 <a href="https://buymeacoffee.com/edu90k"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Me pague um café" height="48"></a>
+
+## Licença
+
+O Save Editor Paradise é software livre: você pode redistribuí-lo e/ou modificá-lo nos termos da
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). Copyright © 2026 Eduardo Santos (Edu90K). Forks e versões modificadas
+precisam continuar com código aberto sob a mesma licença e manter este crédito. As versões até a 1.4.0 foram lançadas
+sob a licença MIT.
 
 ## Créditos
 

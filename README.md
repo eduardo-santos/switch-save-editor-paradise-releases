@@ -44,6 +44,7 @@
 - [FAQ](#faq)
 - [Bugs, ideas and game requests](#bugs-ideas-and-game-requests)
 - [Support the project](#support-the-project)
+- [License](#license)
 - [Credits](#credits)
 
 ## What it can do
@@ -262,6 +263,12 @@ The icons are saved on the SD card, so this is needed only once per game. The ap
 Save Editor Paradise is free. If it saved you hours of grinding, you can buy me a coffee:
 
 <a href="https://buymeacoffee.com/edu90k"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="48"></a>
+
+## License
+
+Save Editor Paradise is free software: you can redistribute it and/or modify it under the terms of the
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). Copyright © 2026 Eduardo Santos (Edu90K). Forks and modified versions must
+stay open source under the same licence and keep this credit. Versions up to 1.4.0 were released under the MIT licence.
 
 ## Credits
 
