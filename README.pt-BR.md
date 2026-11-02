@@ -33,6 +33,7 @@
 - [O que ele faz](#o-que-ele-faz)
 - [Jogos com editor](#jogos-com-editor)
 - [Rastreador de santuários (Zelda)](#rastreador-de-santuários-zelda)
+- [Mapa de Hyrule (Breath of the Wild)](#mapa-de-hyrule-breath-of-the-wild)
 - [Editar pelo celular ou PC](#editar-pelo-celular-ou-pc)
 - [Capturas de tela](#capturas-de-tela)
 - [Instalação](#instalação)
@@ -51,7 +52,7 @@
 
 - **Todos os jogos com save, num só lugar.** Seus jogos aparecem com os ícones, ordenados por jogado por último, salvo por último ou nome, e dá para buscar.
 - **Todos os perfis e todos os slots.** Cada slot mostra data e hora do save, tempo de jogo, um resumo (corações, rupias, dinheiro…), a própria captura de tela do jogo, quando ele tem uma, e se é salvamento automático ou manual (Zelda).
-- **Editores próprios** para jogos populares: dinheiro, itens, status, desbloqueios e, no Zelda, armas, arcos e escudos indestrutíveis, além de um **[rastreador de santuários](#rastreador-de-santuários-zelda)** completo.
+- **Editores próprios** para jogos populares: dinheiro, itens, status, desbloqueios e, no Zelda, armas, arcos e escudos indestrutíveis, além de um **[rastreador de santuários](#rastreador-de-santuários-zelda)** completo e um **[mapa de Hyrule](#mapa-de-hyrule-breath-of-the-wild)** com o seu progresso no Breath of the Wild.
 - **[Editar pelo celular ou PC](#editar-pelo-celular-ou-pc)** num navegador na mesma rede Wi-Fi: baixe e envie saves, restaure backups, edite valores com um teclado de verdade.
 - **Revisar antes de salvar:** cada mudança aparece (antes → depois) antes de qualquer coisa ser gravada, e cada slot guarda um **histórico** das mudanças.
 - **Copiar e trocar** slots, ou copiar o save inteiro para outro perfil.
@@ -95,6 +96,21 @@ Breath of the Wild (136 santuários, 16 da DLC) e Tears of the Kingdom (152 sant
 - Como em toda edição, você vê as mudanças antes de salvar e o slot ganha um backup antes.
 
 No Tears of the Kingdom, um santuário que o save já encontrou não pode voltar a "não encontrado": o valor que o jogo usa para um santuário não descoberto não é conhecido. Os santuários da DLC só aparecem em saves do Breath of the Wild que têm os dados da DLC.
+
+## Mapa de Hyrule (Breath of the Wild)
+
+<p align="center"><img src="screenshots/pt-BR/botw-map.jpg" width="720" alt="O mapa de Breath of the Wild"></p>
+
+Abra com **Mapa** no editor de Breath of the Wild, ou com **ZL** na tela do jogo.
+
+- O mapa real de Hyrule com todos os santuários, torres, sementes Korok, memórias, estábulos, grandes fadas, chefes, baús, missões secundárias e mais, cada um com seu ícone. Mova com o analógico esquerdo e dê zoom com **ZL / ZR**.
+- **Seu progresso vem do save:** santuários completos, torres ativadas, memórias recuperadas e sementes Korok encontradas aparecem como feitos (apagados, com um visto ou escondidos: você escolhe no menu **X**).
+- **Marque o que quiser** com **A**, como completo ou não. Cada slot de save tem o seu mapa, então suas marcas, filtros, busca e o lugar onde você estava continuam lá na próxima vez.
+- **Filtros:** **Y** vai para as categorias (uma por vez, um grupo inteiro ou todas), **L** mostra todos, os que faltam ou os encontrados, o botão **Região** escolhe uma região, e **−** busca nomes e descrições (só numa categoria, se você começar por ela). Cada marcador mostra a região e o ponto de referência mais próximo.
+- **Menu X:** desfazer a última mudança, limpar filtros (também com **R**), **igualar ao save** mantendo suas marcas, ou **redefinir para o save**, que as descarta depois de um aviso.
+- **Com o jogo aberto:** aperte HOME, abra o app pelo Álbum, e o mapa continua abrindo com o último progresso lido do save (antes, abra o mapa ou o editor do slot uma vez com o jogo fechado). A edição espera você fechar o jogo, porque o jogo trava o save.
+
+Os dados, ícones e o mapa vêm do [Zelda Maps](https://zeldamaps.com), usados com permissão. São baixados na primeira vez que você abre o mapa e ficam no cartão SD, então as áreas que você já viu funcionam offline.
 
 ## Editar pelo celular ou PC
 
@@ -263,6 +279,7 @@ O Save Editor Paradise se apoia no trabalho de outras pessoas:
 - A pesquisa de saves do [EdiZon](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts), para Mario Kart 8 Deluxe, Super Mario Odyssey e Donkey Kong Country: Tropical Freeze
 - [Kinnay/DKCTF-Save-Exploit](https://github.com/Kinnay/DKCTF-Save-Exploit), pela estrutura do save de Tropical Freeze
 - A pesquisa de saves de Super Mario Bros. Wonder em [smbw_ap](https://github.com/mdietz94/smbw_ap) e [SMBW-SaveGame-Editor](https://github.com/MemetendoYT/SMBW-SaveGame-Editor)
+- [Zelda Maps](https://zeldamaps.com), pelo mapa de Breath of the Wild (usado com permissão), e [zeldamods/objmap](https://github.com/zeldamods/objmap), pelas posições das sementes Korok
 - [Zstandard](https://github.com/facebook/zstd), [ARM astc-encoder](https://github.com/ARM-software/astc-encoder) e [bcdec](https://github.com/iOrange/bcdec), para ler os ícones dos jogos
 
 Veja as licenças em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

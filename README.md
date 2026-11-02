@@ -31,6 +31,7 @@
 - [What it can do](#what-it-can-do)
 - [Supported games](#supported-games)
 - [Shrine Tracker (Zelda)](#shrine-tracker-zelda)
+- [Map of Hyrule (Breath of the Wild)](#map-of-hyrule-breath-of-the-wild)
 - [Edit from your phone or PC](#edit-from-your-phone-or-pc)
 - [Screenshots](#screenshots)
 - [Install](#install)
@@ -49,7 +50,7 @@
 
 - **Every game with a save, in one place.** Your games are listed with their icons, sorted by last played, last saved or name, and searchable.
 - **Every profile and every slot.** Slots show their save date and time, play time, a short summary (hearts, rupees, money…), the game's own screenshot when it has one, and whether it's an autosave or a manual save (Zelda).
-- **Built-in editors** for popular games: money, items, stats, unlocks, and for Zelda, unbreakable weapons, bows and shields, plus a full **[Shrine Tracker](#shrine-tracker-zelda)**.
+- **Built-in editors** for popular games: money, items, stats, unlocks, and for Zelda, unbreakable weapons, bows and shields, plus a full **[Shrine Tracker](#shrine-tracker-zelda)** and a **[map of Hyrule](#map-of-hyrule-breath-of-the-wild)** with your progress for Breath of the Wild.
 - **[Edit from your phone or PC](#edit-from-your-phone-or-pc)** in a browser on the same Wi-Fi: download and upload saves, restore backups, edit values with a real keyboard.
 - **Review before saving:** every change is listed (old → new) before anything is written, and each slot keeps a **history** of its changes.
 - **Copy and swap** slots, or copy a whole save to another profile.
@@ -93,6 +94,21 @@ Breath of the Wild (136 shrines, 16 from the DLC) and Tears of the Kingdom (152 
 - As with every edit, you see the changes before saving and the slot is backed up first.
 
 In Tears of the Kingdom a shrine the save has already found can't be set back to "not found": the game's value for an undiscovered shrine isn't known. DLC shrines only appear in Breath of the Wild saves that have the DLC's data.
+
+## Map of Hyrule (Breath of the Wild)
+
+<p align="center"><img src="screenshots/en/botw-map.jpg" width="720" alt="The Breath of the Wild map"></p>
+
+Open it with **Map** in the Breath of the Wild editor, or **ZL** on the game screen.
+
+- The real map of Hyrule with every shrine, tower, Korok seed, memory, stable, great fairy, boss, chest, side quest and more, each with its own icon. Move with the left stick, zoom with **ZL / ZR**.
+- **Your progress comes from the save:** completed shrines, activated towers, captured memories and found Korok seeds are shown as done (faded, with a check mark or hidden: your choice in the **X** menu).
+- **Mark anything yourself** with **A**, as completed or not. Each save slot keeps its own map, so your marks, filters, search and where you were looking are still there next time.
+- **Filters:** **Y** jumps to the categories (one at a time, a whole group or all of them), **L** shows all, missing or found, the **Region** button picks one region, and **−** searches names and descriptions (in one category if you start from it). Each marker shows its region and the nearest landmark.
+- **X menu:** undo your last change, clear filters (also **R**), **match the save** while keeping your marks, or **reset to the save**, which discards them after a warning.
+- **While the game is running:** press HOME, open the app from the Album, and the map still opens with the progress last read from the save (open the slot's map or editor once with the game closed first). Editing waits until you close the game, because the game keeps its save locked.
+
+The map's data, icons and tiles come from [Zelda Maps](https://zeldamaps.com), used with their permission. They're downloaded the first time you open the map and kept on the SD card, so areas you've already seen work offline.
 
 ## Edit from your phone or PC
 
@@ -259,6 +275,7 @@ Save Editor Paradise stands on the work of others:
 - The [EdiZon](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts) save research for Mario Kart 8 Deluxe, Super Mario Odyssey and Donkey Kong Country: Tropical Freeze
 - [Kinnay/DKCTF-Save-Exploit](https://github.com/Kinnay/DKCTF-Save-Exploit) for the Tropical Freeze save layout
 - The Super Mario Bros. Wonder save research in [smbw_ap](https://github.com/mdietz94/smbw_ap) and [SMBW-SaveGame-Editor](https://github.com/MemetendoYT/SMBW-SaveGame-Editor)
+- [Zelda Maps](https://zeldamaps.com) for the Breath of the Wild map (used with permission), and [zeldamods/objmap](https://github.com/zeldamods/objmap) for Korok seed positions
 - [Zstandard](https://github.com/facebook/zstd), [ARM astc-encoder](https://github.com/ARM-software/astc-encoder) and [bcdec](https://github.com/iOrange/bcdec) for reading game icons
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for licences.
