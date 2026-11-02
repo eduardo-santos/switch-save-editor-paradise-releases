@@ -53,7 +53,7 @@
 
 - **Todos os jogos com save, num só lugar.** Seus jogos aparecem com os ícones, ordenados por jogado por último, salvo por último ou nome, e dá para buscar.
 - **Todos os perfis e todos os slots.** Cada slot mostra data e hora do save, tempo de jogo, um resumo (corações, rupias, dinheiro…), a própria captura de tela do jogo, quando ele tem uma, e se é salvamento automático ou manual (Zelda).
-- **Editores próprios** para jogos populares: dinheiro, itens, status, desbloqueios e, no Zelda, armas, arcos e escudos indestrutíveis, além de um **[rastreador de santuários](#rastreador-de-santuários-zelda)** completo e um **[mapa de Hyrule](#mapa-de-hyrule-zelda)** com o seu progresso e a posição do Link no Breath of the Wild e no Tears of the Kingdom.
+- **Editores próprios** para jogos populares: dinheiro, itens, status, desbloqueios e, no Zelda, armas, arcos e escudos com os **bônus** que você escolher e indestrutíveis, além de um **[rastreador de santuários](#rastreador-de-santuários-zelda)** completo e um **[mapa de Hyrule](#mapa-de-hyrule-zelda)** com o seu progresso e a posição do Link no Breath of the Wild e no Tears of the Kingdom.
 - **[Editar pelo celular ou PC](#editar-pelo-celular-ou-pc)** num navegador na mesma rede Wi-Fi: baixe e envie saves, restaure backups, edite valores com um teclado de verdade.
 - **Revisar antes de salvar:** cada mudança aparece (antes → depois) antes de qualquer coisa ser gravada, e cada slot guarda um **histórico** das mudanças.
 - **Copiar e trocar** slots, ou copiar o save inteiro para outro perfil.
@@ -191,6 +191,8 @@ Cada slot mostra quando foi salvo, o tempo de jogo e um resumo. **R** num slot a
 | **X** | Revisar as mudanças e salvar |
 | **B** | Voltar (pergunta antes de descartar mudanças não salvas) |
 
+**Bônus de armas, arcos e escudos (Zelda).** O botão com uma seta em cada arma, arco e escudo escolhe o bônus dele: Ataque, Durabilidade, Golpe crítico, Arremesso longo, Tiro rápido, Tiro quíntuplo, Defesa do escudo e outros, ou nenhum. O valor começa no maior que o jogo dá para aquele item (no Breath of the Wild, o melhor de cada arma), e você pode digitar outro dentro da faixa do jogo. Os bônus mais fortes aparecem em amarelo no Breath of the Wild e como ↑↑ no Tears of the Kingdom, como nos jogos.
+
 Ao salvar, o app mostra cada mudança (antes → depois) primeiro. Quando você confirma, ele faz backup do slot, grava as mudanças e as adiciona ao histórico do slot.
 
 > **Breath of the Wild:** depois de editar, abra o slot com **Carregar** no menu do jogo. **Continuar** pode abrir outro slot.
@@ -250,7 +252,7 @@ Os ícones ficam salvos no cartão SD, então isso só é preciso uma vez por jo
 
 **Minha edição no Breath of the Wild não apareceu.** Abra o slot editado com **Carregar** em vez de **Continuar**.
 
-**"Indestrutível" é infinito mesmo?** Ele coloca a maior durabilidade que o jogo aceita (Breath of the Wild) ou usa o próprio truque de bônus de durabilidade do jogo (Tears of the Kingdom). Na prática suas armas não quebram, mas itens que você pegar depois são normais até você editar eles também.
+**"Indestrutível" é infinito mesmo?** Ele coloca a maior durabilidade que o jogo aceita (Breath of the Wild) ou usa o próprio truque de bônus de durabilidade do jogo (Tears of the Kingdom). Na prática suas armas não quebram, mas itens que você pegar depois são normais até você editar eles também. No Breath of the Wild, um item indestrutível mantém o bônus. No Tears of the Kingdom cada item tem um só bônus e o indestrutível é um bônus de Durabilidade ↑↑ (senão o jogo corta a durabilidade para o máximo normal), então ele substituiria um bônus como Ataque ↑↑: o app pergunta antes.
 
 **O app travou.** Abra **Configurações → Relatório de diagnóstico** (ou aperte **ZL** na tela de jogos) e coloque uma foto dele num [relato de bug](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/issues/new?template=bug_report.yml). Ele inclui os detalhes do último travamento e nenhum conteúdo dos seus saves.
 
@@ -294,6 +296,7 @@ O Save Editor Paradise se apoia no trabalho de outras pessoas:
 - [Kinnay/DKCTF-Save-Exploit](https://github.com/Kinnay/DKCTF-Save-Exploit), pela estrutura do save de Tropical Freeze
 - A pesquisa de saves de Super Mario Bros. Wonder em [smbw_ap](https://github.com/mdietz94/smbw_ap) e [SMBW-SaveGame-Editor](https://github.com/MemetendoYT/SMBW-SaveGame-Editor)
 - [Zelda Maps](https://zeldamaps.com), pelos mapas de Breath of the Wild e Tears of the Kingdom (usados com permissão), e [zeldamods/objmap](https://github.com/zeldamods/objmap), pelas posições das sementes Korok
+- [leoetlino/botw](https://github.com/leoetlino/botw), pelas faixas de bônus das armas de Breath of the Wild
 - [Zstandard](https://github.com/facebook/zstd), [ARM astc-encoder](https://github.com/ARM-software/astc-encoder) e [bcdec](https://github.com/iOrange/bcdec), para ler os ícones dos jogos
 
 Veja as licenças em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

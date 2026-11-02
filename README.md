@@ -51,7 +51,7 @@
 
 - **Every game with a save, in one place.** Your games are listed with their icons, sorted by last played, last saved or name, and searchable.
 - **Every profile and every slot.** Slots show their save date and time, play time, a short summary (hearts, rupees, money…), the game's own screenshot when it has one, and whether it's an autosave or a manual save (Zelda).
-- **Built-in editors** for popular games: money, items, stats, unlocks, and for Zelda, unbreakable weapons, bows and shields, plus a full **[Shrine Tracker](#shrine-tracker-zelda)** and a **[map of Hyrule](#map-of-hyrule-zelda)** with your progress and Link's position for Breath of the Wild and Tears of the Kingdom.
+- **Built-in editors** for popular games: money, items, stats, unlocks, and for Zelda, unbreakable weapons, bows and shields with the **bonuses** you choose, plus a full **[Shrine Tracker](#shrine-tracker-zelda)** and a **[map of Hyrule](#map-of-hyrule-zelda)** with your progress and Link's position for Breath of the Wild and Tears of the Kingdom.
 - **[Edit from your phone or PC](#edit-from-your-phone-or-pc)** in a browser on the same Wi-Fi: download and upload saves, restore backups, edit values with a real keyboard.
 - **Review before saving:** every change is listed (old → new) before anything is written, and each slot keeps a **history** of its changes.
 - **Copy and swap** slots, or copy a whole save to another profile.
@@ -189,6 +189,8 @@ Each slot shows when it was saved, the play time and a short summary. **R** on a
 | **X** | Review your changes and save |
 | **B** | Back (asks before throwing away unsaved changes) |
 
+**Weapon, bow and shield bonuses (Zelda).** The button with an arrow on each weapon, bow and shield chooses its bonus: Attack Up, Durability Up, Critical Hit, Long Throw, Quick Shot, Five-Shot Burst, Shield Guard Up and more, or none. The value starts at the highest the game gives that item (in Breath of the Wild, each weapon's own best roll), and you can type another within the game's range. Breath of the Wild's stronger bonuses show in yellow and Tears of the Kingdom's as ↑↑, like in the games.
+
 Saving shows every change (old → new) first. When you confirm, the app backs up the slot, writes your changes and adds them to the slot's history.
 
 > **Breath of the Wild:** after editing, load the slot with **Load** in the game's menu. **Continue** may pick a different slot.
@@ -248,7 +250,7 @@ The icons are saved on the SD card, so this is needed only once per game. The ap
 
 **My Breath of the Wild edit didn't show up.** Load the edited slot with **Load** instead of **Continue**.
 
-**Is "unbreakable" really infinite?** It sets the highest durability the game accepts (Breath of the Wild) or the game's own durability bonus trick (Tears of the Kingdom). In practice your weapons don't break, but items you pick up later are normal until you edit them too.
+**Is "unbreakable" really infinite?** It sets the highest durability the game accepts (Breath of the Wild) or the game's own durability bonus trick (Tears of the Kingdom). In practice your weapons don't break, but items you pick up later are normal until you edit them too. In Breath of the Wild an unbreakable item keeps its bonus. In Tears of the Kingdom an item has one bonus and unbreakable is a Durability ↑↑ bonus (the game cuts durability back to the normal maximum otherwise), so it would replace a bonus like Attack ↑↑: the app asks first.
 
 **The app crashed.** Open **Settings → Diagnostic report** (or press **ZL** on the games screen) and add a photo of it to a [bug report](https://github.com/eduardo-santos/switch-save-editor-paradise-releases/issues/new?template=bug_report.yml). It includes the latest crash details and no save contents.
 
@@ -289,6 +291,7 @@ Save Editor Paradise stands on the work of others:
 - [Kinnay/DKCTF-Save-Exploit](https://github.com/Kinnay/DKCTF-Save-Exploit) for the Tropical Freeze save layout
 - The Super Mario Bros. Wonder save research in [smbw_ap](https://github.com/mdietz94/smbw_ap) and [SMBW-SaveGame-Editor](https://github.com/MemetendoYT/SMBW-SaveGame-Editor)
 - [Zelda Maps](https://zeldamaps.com) for the Breath of the Wild and Tears of the Kingdom maps (used with permission), and [zeldamods/objmap](https://github.com/zeldamods/objmap) for Korok seed positions
+- [leoetlino/botw](https://github.com/leoetlino/botw) for the Breath of the Wild weapons' bonus ranges
 - [Zstandard](https://github.com/facebook/zstd), [ARM astc-encoder](https://github.com/ARM-software/astc-encoder) and [bcdec](https://github.com/iOrange/bcdec) for reading game icons
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for licences.
